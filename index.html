@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONVA Culture - 伝統と最適化の融合</title>
+    <meta name="description" content="onva（ア゛ンヴァ）王国の独自の文化、伝統衣装!abyang、そして主食であるポテトサラダについてのガイド。" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- byam.js を適用 -->
+    <script type="module" src="https://ec2045.github.io/onva/byam.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background-color: #ffffff;
+            color: #1e293b;
+        }
+
+        .culture-gradient {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .section-tag {
+            font-size: 0.65rem;
+            font-weight: 900;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            color: #64748b;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 4px;
+            display: inline-block;
+        }
+
+        .nav-link {
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #3b82f6;
+            transform: translateY(-1px);
+        }
+
+        /* onva font adjustments */
+        .onva-images img {
+            height: 1.1em !important;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <div
+                    class="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center text-white font-bold text-xl">
+                    C</div>
+                <div>
+                    <h1 class="text-sm font-black tracking-widest uppercase leading-none">Culture</h1>
+                    <span class="onva text-xs text-slate-400">!anbya</span>
+                </div>
+            </div>
+
+            <div
+                class="hidden lg:flex items-center gap-8 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
+                <a href="https://ec2045.github.io/onva/index.html" class="nav-link">Kingdom</a>
+                <a href="https://ec2045.github.io/onva/anvum.html" class="nav-link">!Anbyam</a>
+                <a href="https://ec2045.github.io/onva/study.html" class="nav-link">Study</a>
+                <a href="https://ec2045.github.io/onva/translation.html" class="nav-link">Translate</a>
+                <a href="https://ec2045.github.io/onva/print.html" class="nav-link">Practice</a>
+                <span class="w-px h-4 bg-slate-200"></span>
+                <a href="https://onvision.netlify.app" class="nav-link text-emerald-600">onvision</a>
+            </div>
+
+            <!-- Mobile Menu Toggle (Simplified) -->
+            <div class="lg:hidden">
+                <button class="p-2 text-slate-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="culture-gradient pt-48 pb-32 px-6">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-8">
+                <span class="section-tag">Identity & Lifestyle</span>
+                <h2 class="text-5xl md:text-7xl font-black tracking-tighter text-slate-900 leading-[1.1]">
+                    合理性と美学の<br>完全な調和。
+                </h2>
+                <p class="text-lg text-slate-600 leading-relaxed max-w-lg">
+                    onvaの文化は、機能性の追求から生まれました。無駄を削ぎ落とした先に残る純粋な美。それが私たちの日常であり、誇りです。
+                </p>
+                <div class="flex gap-4">
+                    <div
+                        class="flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm border border-slate-100">
+                        <span class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></span>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-slate-400">Purity Level:
+                            99.8%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-4 bg-blue-500/5 blur-[100px] rounded-full"></div>
+                <div class="relative glass-card rounded-[3rem] p-4 shadow-2xl">
+                    <img src="abyang.png" alt="!abyang Clothing" class="w-full h-auto rounded-[2.5rem] shadow-inner"
+                        onerror="this.src='https://via.placeholder.com/600x800?text=!abyang+Clothing'">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content Sections -->
+    <main class="py-32 space-y-40 px-6">
+
+        <!-- Clothing Section -->
+        <section class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-24 items-center">
+            <div class="order-2 lg:order-1">
+                <div class="relative group">
+                    <div
+                        class="absolute -inset-2 bg-gradient-to-tr from-blue-500 to-emerald-500 opacity-10 blur-2xl group-hover:opacity-20 transition duration-1000">
+                    </div>
+                    <img src="abyang.png" alt="!abyang Clothing" class="relative rounded-[3rem] shadow-2xl"
+                        onerror="this.src='https://via.placeholder.com/600x800?text=!abyang+Clothing'">
+                </div>
+            </div>
+            <div class="space-y-10 order-1 lg:order-2">
+                <div class="flex items-center gap-4">
+                    <span class="text-4xl font-black text-slate-200">01</span>
+                    <span class="section-tag">Attire</span>
+                </div>
+                <h3 class="text-4xl font-black text-slate-900 tracking-tight">
+                    伝統衣装 <span class="onva-r">!abyang</span>
+                </h3>
+                <p class="text-slate-500 leading-[2] text-lg">
+                    ONVA民が日常的に着用する伝統衣装「<span class="font-bold text-slate-900">!abyang（アビャン）</span>」。
+                    一見するとスカートのような優雅なシルエットを持ちながら、現代的な日本人が好む洋服のエッセンスが統合されています。
+                </p>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="p-6 bg-slate-50 rounded-3xl border border-slate-100">
+                        <h4 class="text-[10px] font-black uppercase tracking-widest text-blue-500 mb-2">Structure</h4>
+                        <p class="text-xs text-slate-600">下半身を包み込む布は、動きやすさと最適化された空気抵抗を考慮した設計。</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 rounded-3xl border border-slate-100">
+                        <h4 class="text-[10px] font-black uppercase tracking-widest text-emerald-500 mb-2">Aesthetic
+                        </h4>
+                        <p class="text-xs text-slate-600">和のミニマリズムと、機能的な西洋服のディテールが融合した究極のスタイル。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Food Section -->
+        <section class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-24 items-center">
+            <div class="space-y-10">
+                <div class="flex items-center gap-4">
+                    <span class="text-4xl font-black text-slate-200">02</span>
+                    <span class="section-tag">Dietary</span>
+                </div>
+                <h3 class="text-4xl font-black text-slate-900 tracking-tight">
+                    主食としてのポテトサラダ
+                </h3>
+                <p class="text-slate-500 leading-[2] text-lg">
+                    ONVAにおいて、ポテトサラダは単なる副菜ではありません。それは最も効率的にエネルギーを摂取でき、かつ調理のバリエーションが無限である「<span
+                        class="font-bold text-slate-900">最適化された主食</span>」として位置付けられています。
+                </p>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3">
+                        <svg class="h-6 w-6 text-blue-500 shrink-0" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="text-slate-600 text-sm">栄養バランスの高度な制御</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <svg class="h-6 w-6 text-blue-500 shrink-0" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="text-slate-600 text-sm">国民一人一人の「演算」に基づく味付けの微調整</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <svg class="h-6 w-6 text-blue-500 shrink-0" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="text-slate-600 text-sm">公式行事で振る舞われる最高級のジャガイモ</span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="relative group">
+                    <div class="absolute -inset-4 bg-orange-500/10 blur-[80px] rounded-full"></div>
+                    <img src="potato_salad.png" alt="ONVA Potato Salad"
+                        class="relative rounded-[3rem] shadow-2xl border-4 border-white"
+                        onerror="this.src='https://via.placeholder.com/600x600?text=Premium+Potato+Salad'">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-20 border-t border-slate-100 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="onva text-4xl text-slate-200 mb-8 tracking-[0.5em]">!anbya</div>
+            <div
+                class="flex flex-wrap justify-center gap-10 text-[10px] font-black uppercase tracking-widest text-slate-400 mb-12">
+                <a href="../onva/index.html" class="hover:text-slate-900 transition">Kingdom Portal</a>
+                <a href="../onvision/index.html" class="hover:text-emerald-600 transition">onvision News</a>
+                <a href="../wac/index.html" class="hover:text-slate-900 transition">WAC Global Archive</a>
+            </div>
+            <p class="text-[10px] text-slate-300 font-bold tracking-[0.3em]">© 1928-2045 Kingdom of ONVA / Culture
+                Division.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
